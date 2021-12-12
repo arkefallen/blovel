@@ -67,6 +67,8 @@ class ArticleController extends Controller
 
         $article->thumbnail = $imageFile;
 
+        $article->like = 0;
+
         $article->save();
         return redirect('/article')->with('msg_success_store','Selamat ! Artikel mu berhasil dipublikasikan ! 🤩');
     }
