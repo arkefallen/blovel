@@ -20,7 +20,8 @@
         "laravel/ui": "^3.4",
         "mockery/mockery": "^1.4.4",
         "nunomaduro/collision": "^5.10",
-        "phpunit/phpunit": "^9.5.10"
+        "phpunit/phpunit": "4.7.7",
+        "phpspec/phpspec":"2.2.1"
     },
     "autoload": {
         "psr-4": {
