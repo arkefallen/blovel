@@ -35,7 +35,7 @@ class DatabaseSeeder extends Seeder
             'content' => 'Sampah menjadi permasalahan yang tidak ada habisnya sebelum manusia mempunyai kesadaran diri mengenai lingkungan. Banyaknya konsumsi setiap hari membuat manusia selalu menghasilkan banyak sampah setiap harinya. Demi mengurangi sampah yang ada, masyarakat hendaknya menggunakan barang yang didaur ulang. Misalnya saja, untuk kebutuhan kantong plastik kita bisa menggunakan satu kantong saja yang bisa dipakai berulang-ulang. Hal ini akan membantu mengurangi sampah dan menjadikan bumi lebih sehat.',
             'thumbnail' => '3231260562.jpg',
             'creator_id' => '2',
-            'article-seo' => 'kurangi-sampah-demi-lingkungan',
+            'article_seo' => 'kurangi-sampah-demi-lingkungan',
             'like' => 0,
         ]);
 
