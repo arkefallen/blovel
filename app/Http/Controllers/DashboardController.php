@@ -30,7 +30,6 @@ class DashboardController extends Controller
 
     public function search(Request $req)
     {
-        
         $articles = Article::where('title','like',"%".$req->search_text."%")->paginate(6);
         $pages = 6*($articles->currentPage()-1);
 
@@ -40,6 +39,8 @@ class DashboardController extends Controller
         $totalArticle = count($articles);
         $totalUser = count($users);
         $totalGallery = count($galleries);
+        
         return view('dashboard',compact('articles','pages','totalArticle','totalUser','totalGallery'));
     }
+
 }

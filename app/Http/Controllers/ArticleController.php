@@ -102,7 +102,7 @@ class ArticleController extends Controller
             $article->thumbnail = $imageFile;
         }
         
-        $article->save();
+        $article->update();
         return redirect('/article')->with('msg_success_update','Selamat ! Artikel mu berhasil diperbarui ! 🤩');
     }
 
